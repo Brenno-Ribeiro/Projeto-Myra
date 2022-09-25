@@ -1,0 +1,27 @@
+.card-user{
+
+    background-color: white;
+    margin-bottom: 6px;
+    padding: 1em;
+}
+
+.card-user div{
+    margin-bottom: 3px;
+}
+
+
+.card-user-iamge div{
+    width: 100px;
+    height: 100px;
+}
+
+
+.card-user-title{
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.card-user-role{
+    margin-top: -20px;
+}
+

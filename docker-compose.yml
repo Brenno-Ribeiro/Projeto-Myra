@@ -1,0 +1,52 @@
+version: '3.4'
+
+networks:
+  projeto-locadora:
+    driver: bridge 
+
+volumes:
+  db_volume:
+    driver: local
+
+services:
+
+  movieapi:
+    image: myrabackdotnet
+    container_name: MYRA-BACK
+    depends_on:
+      - "myradb"
+    build:
+      context: ./BACK-STATION/StationAPI
+      dockerfile: Dockerfile
+    ports:
+      - "7080:80"     
+    networks:
+      - projeto-locadora 
+  
+
+  myradb:
+    image: postgres:latest
+    container_name: MYRA-DATABASE
+    ports:
+      - "5432:5432"
+    restart: always
+    volumes:
+      - db_volume:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: "station"
+      POSTGRES_PASSWORD: "station"
+      POSTGRES_DB: "myrastation"
+    networks:
+      - projeto-locadora 
+  
+  moviespa:
+    image: myrafrontangular
+    container_name: MYRA-FRONT
+    build:
+      context: ./FRONT-STATION
+      dockerfile: Dockerfile
+    ports:
+      - "4200:80"     
+    networks:
+      - projeto-locadora 
+

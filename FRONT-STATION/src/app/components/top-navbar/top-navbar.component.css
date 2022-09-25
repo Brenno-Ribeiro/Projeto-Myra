@@ -1,0 +1,27 @@
+.top-navbar{
+    background-color: rgb(73, 73, 73);
+    border-bottom: orange 5px solid;
+}
+
+.logo-station-section{
+    width: 293px;
+    background-color: black;
+    padding: .4em 2em;
+    position: relative;
+    left: -12px;
+}
+
+.logo-station{
+    color: aliceblue;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+button{
+    background-color: black;
+    height: 100%;
+    padding: .5em .6em;
+    position: relative;
+    right: -12px;
+}
+

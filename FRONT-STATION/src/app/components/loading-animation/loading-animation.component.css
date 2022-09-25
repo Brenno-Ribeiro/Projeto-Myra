@@ -1,0 +1,8 @@
+.myra-logo-animation{
+    animation: rotate 2s cubic-bezier(0.60,1,0.70,0) 0s infinite normal
+}
+
+
+@keyframes rotate {
+    100%{ transform: rotate(360deg)};
+}

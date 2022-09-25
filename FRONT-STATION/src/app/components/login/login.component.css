@@ -1,0 +1,118 @@
+.login-section{
+    background-color: black;
+}
+
+
+
+.myra-section{
+    padding: 2em;
+}
+
+.station{
+    color: orange;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.perfomace-anywhere{
+    color: white;
+    position: relative;
+    bottom: 8px;
+}
+
+img{
+    width: 203px;
+}
+
+
+
+h1{
+    color: white;
+    font-size: 60px;
+}
+
+
+.form-myra-section{
+    height: 100%;
+    background: url(../../../assets/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-myra-login-forms{
+    padding: 2em;
+}
+
+.form-myra-login{
+    background-color: rgb(26, 26, 26, 0.9);
+    width: 350px;
+    height: 560px;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+
+.form-myra-login-logo{
+    padding: 1em;
+}
+
+
+input{
+    width: 100%;
+    border: 3%;
+    font-size: 20px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    color: wheat;
+    font-weight: bold;
+    margin-top: 20px;
+    position: relative;
+    bottom: -25px;
+}
+
+
+button{
+    background: transparent;
+    border: 1px solid orange;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: .8em;
+
+    transition: all .3s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+button:hover{
+    background: orange;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: all .3s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+a:hover{
+    text-decoration: underline
+}
+
+
+p{
+    color: red;
+    background-color: rgb(245, 146, 146);
+    padding: .1em;
+}
+
+svg{
+    color: black;
+    position: relative;
+    top: 32px;
+    left: 5px;
+
+}
+

@@ -1,0 +1,15 @@
+.painel{
+    height: 100%;
+    background-color: rgb(240, 240, 240);
+}
+
+
+.col-lg-1{
+    margin: 0;
+    width: auto;
+    padding-right: 0;
+}
+
+.col-lg-2{
+    padding: 0;
+}

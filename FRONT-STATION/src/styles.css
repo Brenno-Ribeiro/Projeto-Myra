@@ -1,0 +1,22 @@
+html,body{
+    height: 100%;
+    font-family: Montserrat;
+    overflow: hidden;
+}
+
+
+@font-face {
+    font-family: Montserrat;
+    src: url(.//fonts/Montserrat-Regular.ttf);
+}
+
+
+.col-11+div{
+    background-color: black;
+}
+
+
+.height-100{
+    height: 100%;
+}
+

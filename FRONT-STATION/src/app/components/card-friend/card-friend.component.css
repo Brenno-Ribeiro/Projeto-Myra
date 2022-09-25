@@ -1,0 +1,34 @@
+.card-friend{
+    background-color: white;
+    margin-bottom: 5px;
+    padding: .5em .7em -0 ;
+}
+
+
+
+.card-friend-image{
+    width: 50px;
+    height: 50px;
+}
+
+.col-lg-1{
+    padding-left: 0;
+}
+
+.card-friend-information{
+    margin-left: 30px;
+}
+
+.card-friend-information span{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
